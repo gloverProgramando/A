@@ -1,0 +1,136 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*background-color:rgb(226, 226, 226);*/
+    padding: 0%;
+    margin:  0%;
+}
+
+.baner{
+    width: 100%;
+    height: 20%;
+    top: -1%;
+    left: -1%;
+    /*top: 0%; baner mov
+    left: 0%; */
+    position: relative;
+    
+    background-color: rgba(0, 0, 0, 0.98);
+
+    /*position: fixed; baner mov
+    z-index:1;
+    display: block;*/
+}
+.baner img{
+    width: 11%;
+    height: 100%;
+    left: 29%;
+    position: absolute;
+}
+.baner h1{
+    color: red;
+    font-size: 450%;
+    position: absolute;
+    left: 40%;
+
+}
+.tit{
+    text-align: center;
+    color: white;
+    /*position: relative; baner mov
+    top: 22%;*/
+}
+.menu {
+    list-style: none;
+    padding: 1%;
+    background-color: rgb(226, 226, 226);
+    width: 60%;
+    max-width: 1000px;
+    height: 30%;
+    max-height: 250px;
+    margin: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: 20%;
+    /*top: 150px; baner mov*/
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: rgb(208, 219, 219);
+}
+
+#img{
+    position: absolute;
+    left: 1%;
+}
+#img img{
+    width: 259px;
+    height: 200px;
+}
+.tam{
+    
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.nom{
+    
+    position: absolute;
+    left: 40%;
+}
+.nom li a{
+    text-align: center;
+}
+video 
+{
+  position: fixed;
+  min-width:100%;
+  min-height:100%;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index:-1;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.98);
+}
+
+.nav ul {
+  list-style: none;
+  color:inherit;
+  margin:0;
+  padding:0;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color:white;
+  display: block;
+  padding: 30px 40px;
+  text-decoration: none;
+
+}
+ 
+.nav ul li a:hover {
+  background-color: #fff;
+  color:#000;
+  text-shadow: 3px 3px grey;
+}
+.apartado {
+float:right;
+}
